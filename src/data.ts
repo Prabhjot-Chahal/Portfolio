@@ -38,8 +38,8 @@ import type {
 // tab, and the preview card people see when you share your link.
 // --------------------------------------------------------------
 export const SITE: Site = {
-  name: 'Your Name',
-  headline: 'Computer Science student & aspiring software developer', // what you do, in a few words
+  name: 'Prabhjot Singh Chahal',
+  headline: 'Computer Science Alumni & ', // what you do, in a few words
   pitch:
     'I build friendly, reliable web apps and love turning messy problems into simple tools. Currently looking for my next internship.', // 1 or 2 sentences
   location: 'Waterloo, ON',
@@ -73,9 +73,9 @@ export const THEME: Theme = {
 // "bluesky", "mail", or "website". Only keep what you want public.
 // --------------------------------------------------------------
 export const SOCIALS: SocialLink[] = [
-  { label: 'GitHub', url: 'https://github.com/your-username', icon: 'github' },
-  { label: 'LinkedIn', url: 'https://www.linkedin.com/in/your-name', icon: 'linkedin' },
-  { label: 'Email', url: 'mailto:you@example.com', icon: 'mail' },
+  { label: 'GitHub', url: 'https://github.com/Prabhjot-Chahal', icon: 'github' },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/in/prabhjot-chahal/', icon: 'linkedin' },
+  { label: 'Email', url: 'mailto:prabhjot.c100@gmail.com', icon: 'mail' },
 ]
 
 // --------------------------------------------------------------
@@ -100,11 +100,11 @@ export const ABOUT: About = {
   ],
   education: [
     {
-      school: 'Your University',
+      school: 'Wilfrid Laurier University',
       degree: 'Bachelor of Science in Computer Science',
       location: 'Waterloo, ON',
-      dates: '2024 to 2028',
-      details: ["Dean's List, 2025", 'Courses: Data Structures, Databases, Human-Computer Interaction'],
+      dates: '2021 to 2026',
+      details: ['Courses: Data Structures & Algorithms, AI, Operating Systems, Databases I '],
     },
   ],
 }
@@ -131,11 +131,11 @@ export const SKILLS: SkillGroup[] = [
 // --------------------------------------------------------------
 export const EXPERIENCE: Job[] = [
   {
-    role: 'Software Developer Intern',
-    organization: 'Company Name',
+    role: 'IT Engineering Intern',
+    organization: 'Terrestrial Energy',
     link: 'https://example.com',
-    location: 'Toronto, ON (hybrid)',
-    dates: 'May 2026 to Aug 2026',
+    location: 'Oakville, ON (hybrid)',
+    dates: 'Jan 2026 to Present',
     points: [
       'Built a React dashboard that cut weekly reporting time from 3 hours to 20 minutes',
       'Wrote API tests that caught 12 bugs before release',
