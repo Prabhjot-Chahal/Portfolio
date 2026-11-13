@@ -39,14 +39,14 @@ import type {
 // --------------------------------------------------------------
 export const SITE: Site = {
   name: 'Prabhjot Singh Chahal',
-  headline: 'Computer Science Alumni & ', // what you do, in a few words
+  headline: 'Computer Science Alumni ', // what you do, in a few words
   pitch:
     'I build friendly, reliable web apps and love turning messy problems into simple tools. Currently looking for my next internship.', // 1 or 2 sentences
   location: 'Waterloo, ON',
-  availability: 'Open to summer 2027 internships', // or "" to hide the badge
+  availability: 'Open to new grad positions and full time roles', // or "" to hide the badge
   photo: 'photo.jpg', // a headshot in the public/ folder, or "" to hide it
   resume: 'resume.pdf', // your resume as a PDF in public/ (powers the "Resume" button)
-  email: 'you@example.com', // used by the "Get in touch" and "Email me" buttons
+  email: 'prabhjot.c100@gmail.com', // used by the "Get in touch" and "Email me" buttons
 
   // For search engines and link previews (LinkedIn, Slack, iMessage, ...)
   url: '', // your live site address once it's online, e.g. "https://yourname.dev"
