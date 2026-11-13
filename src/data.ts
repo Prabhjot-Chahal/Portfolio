@@ -44,7 +44,7 @@ export const SITE: Site = {
     'I build friendly, reliable web apps and love turning messy problems into simple tools. Currently looking for my next internship.', // 1 or 2 sentences
   location: 'Waterloo, ON',
   availability: 'Open to new grad positions and full time roles', // or "" to hide the badge
-  photo: 'photo.jpg', // a headshot in the public/ folder, or "" to hide it
+  photo: 'new headshot.jpg', // a headshot in the public/ folder, or "" to hide it
   resume: 'resume.pdf', // your resume as a PDF in public/ (powers the "Resume" button)
   email: 'prabhjot.c100@gmail.com', // used by the "Get in touch" and "Email me" buttons
 
@@ -89,14 +89,13 @@ export const SOCIALS: SocialLink[] = [
 // --------------------------------------------------------------
 export const ABOUT: About = {
   paragraphs: [
-    "I'm a third-year Computer Science student who likes building things people actually use. Most of my projects start with a small annoyance in my own life and end with a tool my friends ask to borrow.",
+    "I'm a Computer Science Alumni who likes building things people actually use. Most of my projects start with a small annoyance in my own life and end with a tool my friends ask to borrow.",
     "Outside of class I lead workshops for my school's computing club, and I've spent the last two summers working on internal tools and data dashboards. I'm happiest on teams that ship often and talk to their users.",
   ],
   facts: [
-    { label: 'Based in', value: 'Waterloo, ON' },
+    { label: 'Based in', value: 'Toronto, ON' },
     { label: 'Studying', value: 'BSc Computer Science' },
-    { label: 'Focus', value: 'Web apps & data' },
-    { label: 'Fun fact', value: 'Solves a Rubik’s cube in under 20 s' },
+    { label: 'Focus', value: 'Cloud Engineering & DevOps' },
   ],
   education: [
     {
@@ -104,7 +103,7 @@ export const ABOUT: About = {
       degree: 'Bachelor of Science in Computer Science',
       location: 'Waterloo, ON',
       dates: '2021 to 2026',
-      details: ['Courses: Data Structures & Algorithms, AI, Operating Systems, Databases I '],
+      details: ['Courses: Data Structures & Algorithms, AI, Operating Systems, Databases I'],
     },
   ],
 }
